@@ -84,6 +84,8 @@ INVERTER_SENSOR_TYPES = {
     'unit_id': ['Modbus ID', 'i_unit_id', None, None, None, None, EntityCategory.DIAGNOSTIC],
     'export_limit_rate': ['Export limit rate', 'export_limit_rate', None, SensorStateClass.MEASUREMENT, None, 'mdi:chart-line', None],
     'export_limit_enable': ['Export limit enabled', 'export_limit_enable', None, None, None, 'mdi:power-plug', EntityCategory.DIAGNOSTIC],
+    'unit_id': ['Modbus ID', 'i_unit_id', None, None, None, None, EntityCategory.DIAGNOSTIC],    
+    'isolation_resistance': ['Isolation Resistance', 'isolation_resistance', None, SensorStateClass.MEASUREMENT, 'MΩ', 'mdi:omega', None],
 }
 
 INVERTER_SYMO_SENSOR_TYPES = {
